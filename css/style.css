@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --coralColor: coral;
+  --btnColor: orange;
+  --btn2Color: deepskyblue;
+  --btn3Color: limegreen;
+}
+/* HEADER START */
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+.logo {
+  text-align: center;
+  background-image: url(../images/chef-icon.png);
+  background-repeat: no-repeat;
+  padding: 50px;
+  background-position: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 10px;
+  font-weight: 800;
+  font-size: 62px;
+}
+.logo p {
+  text-transform: lowercase;
+  font-weight: 500;
+}
+nav {
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+nav a {
+  text-decoration: none;
+  margin: 20px 80px;
+  color: grey;
+  text-transform: uppercase;
+}
+.manu i {
+  display: none;
+}
+/* HEADER END */
+
+/* MAIN START */
+main {
+  width: 92%;
+  margin: 0 auto;
+}
+.box {
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
+  float: left;
+  height: 450px;
+  overflow: hidden;
+}
+.box img {
+  width: 100%;
+  object-fit: cover;
+  position: relative !important;
+  height: 50%;
+  transition: all 0.5s ease;
+}
+.box img:hover {
+  opacity: 0.5;
+  border-radius: 10px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 25px;
+  gap: 10px;
+  padding: 10px 0;
+}
+.text h3 {
+  text-transform: uppercase;
+}
+.h3 {
+  color: var(--coralColor);
+}
+.text button {
+  padding: 8px 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+.text p {
+  opacity: 0.7;
+}
+button:hover {
+  transform: scaleY(1.2);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.btn {
+  background-color: var(--btnColor);
+}
+.btn2 {
+  background-color: var(--btn2Color);
+}
+.btn3 {
+  background-color: var(--btn3Color);
+}
+.btn4 {
+  background-color: var(--coralColor);
+}
+.clear {
+  clear: both;
+}
+.btn5 {
+  margin: 50px auto;
+  display: block;
+  padding: 15px 50px;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 3px solid var(--coralColor);
+  background-color: transparent;
+  color: var(--coralColor);
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.btn5:hover {
+  border-radius: 10px;
+  background-color: var(--coralColor);
+  color: white;
+  opacity: 1;
+}
+/* MAIN END */
+
+/* FOOTER START */
+footer {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+form {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+}
+form input {
+  border-radius: 3px;
+  border: none;
+  padding: 20px 250px 20px 10px;
+}
+form button {
+  border-radius: 3px;
+  padding: 10px 80px;
+  background-color: crimson;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  transition: all 0.5s ease;
+  border: none;
+}
+form button:hover {
+  border-radius: 10px;
+  border: 2px solid crimson;
+  background-color: inherit;
+  opacity: 1;
+}
+footer h3 {
+  color: white;
+  position: absolute;
+  top: 75%;
+  z-index: 5;
+  font-size: 25px;
+}
+/* FOOTER END */
+
+.thems i:first-child {
+  color: rgba(174, 203, 11, 0.725);
+  cursor: pointer;
+  display: none;
+}
+.thems i:last-child {
+  cursor: pointer;
+  color: rgba(174, 203, 11, 0.725);
+}
+.transition {
+  transition: all 0.5s ease-out;
+}

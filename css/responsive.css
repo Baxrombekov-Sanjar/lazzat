@@ -1,0 +1,329 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* @media only screen and (max-width: 575.98px) {
+  nav {
+    display: none;
+  }
+  .menu i {
+    text-decoration: none;
+    margin: 20px 15px;
+    color: grey;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+    background-image: none;
+    margin: 0;
+  }
+  .logo p {
+    font-size: 10px;
+  }
+  .logo h1 {
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .box {
+    width: calc(100% / 1 - 30px) !important;
+    margin: 15px;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+  }
+  .btn5 {
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 10px 50px 10px 10px;
+  }
+  form button {
+    border-radius: 3px;
+    padding: 10px 40px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    font-size: 10px;
+    transition: all 0.5s ease;
+    border: none;
+  }
+  footer h3 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 5;
+    font-size: 15px;
+  }
+} */
+
+/* Small devices (landscape phones, less than 768px)  */
+@media only screen and (max-width: 767.98px) {
+  nav {
+    display: none;
+  }
+  .menu i {
+    text-decoration: none;
+    margin: 20px 15px;
+    color: grey;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+    background-image: none;
+    margin: 0;
+  }
+  .logo p {
+    font-size: 10px;
+  }
+  .logo h1 {
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .box {
+    width: calc(100% / 1 - 30px) !important;
+    margin: 15px;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+  }
+  .btn5 {
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 10px 50px 10px 10px;
+  }
+  form button {
+    border-radius: 3px;
+    padding: 10px 40px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    font-size: 10px;
+    transition: all 0.5s ease;
+    border: none;
+  }
+  footer h3 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 5;
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px)  */
+@media only screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+  .menu i {
+    text-decoration: none;
+    margin: 20px 15px;
+    color: grey;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+    background-image: none;
+    margin: 0;
+  }
+  .logo p {
+    font-size: 10px;
+  }
+  .logo h1 {
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .box {
+    width: calc(100% / 2 - 30px) !important;
+    margin: 15px;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+  }
+  .btn5 {
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 10px 80px 10px 10px;
+  }
+  form button {
+    border-radius: 3px;
+    padding: 10px 50px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    font-size: 10px;
+    transition: all 0.5s ease;
+    border: none;
+  }
+  footer h3 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 5;
+    font-size: 15px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 1200px) {
+  nav {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/chef-icon.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-position: center;
+  }
+  .logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 62px;
+  }
+  .logo p {
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .menu i {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    text-align: center; */
+  }
+  .box {
+    width: calc(100% / 3 - 30px) !important;
+    margin: 15px;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+  }
+  .btn5 {
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 20px 150px 20px 10px;
+  }
+  form button {
+    border-radius: 3px;
+    padding: 10px 50px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    border: none;
+  }
+  form button:hover {
+    border-radius: 10px;
+    border: 2px solid crimson;
+    background-color: inherit;
+    opacity: 1;
+  }
+  footer h3 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 5;
+    font-size: 25px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1400px) {
+  .btn5 {
+    margin: 50px auto;
+    display: block;
+    padding: 15px 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 3px solid var(--coralColor);
+    background-color: transparent;
+    color: var(--coralColor);
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 20px 250px 20px 10px;
+  }
+  form button {
+    border-radius: 3px;
+    padding: 10px 80px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    border: none;
+  }
+}
